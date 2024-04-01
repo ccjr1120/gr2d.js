@@ -1,0 +1,5 @@
+{
+  "name": "@gr2d/element",
+  "module": "index.ts",
+  "type": "module"
+}

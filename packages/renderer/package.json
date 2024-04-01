@@ -1,0 +1,5 @@
+{
+  "name": "@gr2d/renderer",
+  "module": "index.ts",
+  "type": "module"
+}
