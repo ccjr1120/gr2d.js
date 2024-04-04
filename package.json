@@ -9,7 +9,7 @@
     "typescript": "^5.0.0"
   },
   "lint-staged": {
-    "packages/**/*.{ts}": [
+    "packages/**/*.ts": [
       "prettier --write",
       "eslint"
     ]
