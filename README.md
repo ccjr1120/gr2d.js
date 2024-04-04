@@ -1,16 +1,12 @@
-# 我的项目模板
+# Gr2d.js
 ### 介绍
-&emsp;&emsp;这是一份适用于我自身的项目模板，里面包含了一些我比较喜欢的一些管理工具以及一些基本配置。
-
-### 项目里有什么？
-- 包管理器 
-  - bun
-- 代码样式 
-  - eslint
-  - prettier
-- 其它
-  - husky
-  - commitlint
-  - lint-staged
-### 为什么用bun?
-&emsp;&emsp;我开发的工具很少会依赖一些bun可能不兼容的库；我比较喜欢ts，使用bun可以方便的帮我运行ts脚本；同时bun还可以自动的帮我处理import和require
+&emsp;&emsp;旨在使用WebGpu完成2D图形的基础绘制
+### 项目结构
+#### @gr2d/core
+&emsp;&emsp;负责调度其余模块，提供基础功能API
+#### @gr2d/element 元素
+&emsp;&emsp;图形只有几种，但是加入图片就扩充到元素了
+#### @gr2d/data-system
+&emsp;&emsp;负责维护图形数据，主要提供图层这一概念，以及时光机
+#### @gr2d/renderer
+&emsp;&emsp;负责WebGPU的渲染流程
