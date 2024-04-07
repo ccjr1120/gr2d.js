@@ -1,5 +1,5 @@
 {
-  "name": "@gr2d/file-system",
+  "name": "@gr2d/data-system",
   "module": "index.ts",
   "type": "module"
 }

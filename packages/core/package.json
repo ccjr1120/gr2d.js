@@ -1,5 +1,8 @@
 {
   "name": "@gr2d/core",
   "module": "index.ts",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@gr2d/element": "workspace:*"
+  }
 }
