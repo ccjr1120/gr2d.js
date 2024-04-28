@@ -1,5 +1,5 @@
 {
-  "name": "@gr2d/renderer",
+  "name": "@gr2d/graph-tree",
   "module": "src/index.ts",
   "main": "src/index.ts",
   "type": "module"
