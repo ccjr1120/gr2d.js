@@ -1,0 +1,9 @@
+{
+  "name": "@gr2d/basis",
+  "module": "src/index.ts",
+  "main": "src/index.ts",
+  "type": "module",
+  "dependencies": {
+    "@gr2d/element": "workspace:*"
+  }
+}

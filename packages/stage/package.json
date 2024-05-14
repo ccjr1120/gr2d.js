@@ -1,5 +1,5 @@
 {
-  "name": "@gr2d/graph-tree",
+  "name": "@gr2d/stage",
   "module": "src/index.ts",
   "main": "src/index.ts",
   "type": "module"

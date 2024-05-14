@@ -15,7 +15,8 @@
     ]
   },
   "scripts": {
-    "prepare": "husky"
+    "prepare": "husky",
+    "start": "bun run"
   },
   "dependencies": {},
   "devDependencies": {
